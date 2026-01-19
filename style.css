@@ -1,3 +1,15 @@
-h1{
-    background-color: forestgreen;
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+button{
+    background-color: blue;
+    color: white;
 }
