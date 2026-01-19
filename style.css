@@ -18,3 +18,39 @@ nav{
 #bg-color{
     background-color: rgba(26, 11, 46, 1);
 }
+
+.hero-circle-img{
+    position: relative;
+    left: 625px;
+    top: 100px;
+}
+.hero-circle{
+    height: 350px;
+    width: 350px;
+}
+.mirophone-img{
+    position: relative;
+    left: 740px;
+    bottom: 150px;
+}
+.hero-miro-img{
+    width: 117px;
+    height: 175px;
+}
+.new-btn{
+    position: relative;
+    left: 870px;
+    bottom: 400px;
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+
+#hero-bg-img{
+    background-image: url('/assets/hero-bg.png');
+    height: 760px;
+    width: 100%;
+}
