@@ -54,3 +54,43 @@ nav{
     height: 760px;
     width: 100%;
 }
+
+#techwave{
+    background-color: rgba(35, 14, 61, 1);
+}
+.tech-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6)  , 225px;
+}
+.first-div{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.second-div{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.third-div{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.ifram-sec{
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 20px;
+    
+}
+.icon{
+    /* height: 40px;
+    width: 40px; */
+    border: 1px white solid;
+    border-radius: 50%;
+}
